@@ -1,0 +1,21 @@
+# Virtual environments
+ghost_env/
+.venv/
+env/
+venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large model binaries (>100MB, rejected by GitHub)
+models/best_model.pkl
+
+# IDE files
+.idea/
+.vscode/
+.DS_Store
