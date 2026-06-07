@@ -1,5 +1,4 @@
-```markdown
-# 👻 GhostBusters
+## 👻 GhostBusters
 
 Ghosting predictor for dating apps. Uses 5 ML models + SHAP explainability.
 
@@ -7,7 +6,7 @@ Ghosting predictor for dating apps. Uses 5 ML models + SHAP explainability.
 
 Run this in your terminal:
 
-```powershell
+```
 # 1. Create virtual environment (first time only)
 python -m venv ghost_env
 
@@ -24,7 +23,7 @@ streamlit run ghostbusters_app.py
 
 ## 📁 What's Inside
 
-```text
+```
 ├── models/                          # Trained model files (created when you run)
 ├── ghostbusters_app.py              # The Streamlit dashboard
 ├── run_ghostbusters.py              # Auto-setup script
