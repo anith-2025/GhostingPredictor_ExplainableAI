@@ -17,7 +17,6 @@ import traceback
 import webbrowser
 import venv
 import importlib.util
-import numpy as np
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -166,6 +165,7 @@ def train_models():
 
     print('\n🤖 Training models...')
     import pandas as pd
+    import numpy as np
     import joblib
     from sklearn.model_selection import train_test_split, GridSearchCV
     from sklearn.impute import SimpleImputer
